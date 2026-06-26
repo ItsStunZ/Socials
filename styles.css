@@ -1,4 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* Default */
+    --dark-blue-color: #172b60;
+
+    /* Text */
+    --font-weight-bold: 600;
+    --font-weight-thin: 100;
+}
+
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--dark-blue-color);
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.long-description {
+    max-width: 300px;
+    overflow-wrap: break-word;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.socials-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.socials-container > * {
+    cursor: pointer;
+}
+
+.call-to-actions-container {
+    margin: 10px;
+}
+
+.cta-message-btn,
+.cta-connect-btn {
+    padding: 13px 40px;
+    border-radius: .5rem;
+    background-color: transparent;
+    border: 2px solid var(--dark-blue-color);
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.cta-message-btn,
+.cta-connect-btn:hover {
+    transition: .2s;
+    background-color: var(--dark-blue-color);
+    color: #ffffff;
 }

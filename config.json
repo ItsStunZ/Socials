@@ -1,0 +1,16 @@
+{
+    "socials": [
+        {
+            "icon": "fa-instagram",
+            "link": "https://www.instgram.com"
+        },
+        {
+            "icon": "fa-linkedin-in",
+            "link": "https://www.linkedin.com/in/ethan-mclaughlin-5524163b0/"
+        },
+        {
+            "icon": "fa-facebook-f",
+            "link": "https://www.facebook.com/EthanEugeneMcLaughlin"
+        }
+    ]
+}
