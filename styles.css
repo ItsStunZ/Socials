@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: #e6e6e6;
+    background-color: #cfcfcf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +61,11 @@ body {
 
 .socials-container > * {
     cursor: pointer;
+    transition: .2s;
+}
+.socials-container > *:hover {
+    transition: .2s;
+    transform: scale(1.1);
 }
 
 .call-to-actions-container {
